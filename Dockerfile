@@ -26,7 +26,7 @@ RUN if [ ! -f syncthing-linux-$TARGETARCH ] ; then \
 # not.
 #
 
-FROM alpine
+FROM alpine:3.17.0
 ARG TARGETARCH
 
 LABEL org.opencontainers.image.authors="The Syncthing Project" \
